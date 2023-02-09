@@ -1,7 +1,7 @@
 package com.company;
 
 public class Cliente {
-    private Dialogo dialogo;
+    private Boton dialogo;
     private Caja caja;
 
     public Cliente(Fabrica fabrica) {

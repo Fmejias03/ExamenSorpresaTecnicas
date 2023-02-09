@@ -2,7 +2,7 @@ package com.company;
 
 public class FarbicaDialogoMac implements Fabrica{
     @Override
-    public Dialogo crearDialogo() {
+    public Boton crearDialogo() {
         return new DialogoMac();
     }
 

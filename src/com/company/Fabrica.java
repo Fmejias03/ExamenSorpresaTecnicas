@@ -1,6 +1,6 @@
 package com.company;
 
 public interface Fabrica {
-    Dialogo crearDialogo();
+    Boton crearDialogo();
     Caja crearCaja();
 }

@@ -1,6 +1,6 @@
 package com.company;
 
-public interface Dialogo {
+public interface Boton {
     public void mostrar();
 
 

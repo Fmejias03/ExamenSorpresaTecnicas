@@ -1,10 +1,10 @@
 package com.company;
 
-public class DialogoMac extends FarbicaDialogoMac implements Dialogo{
+public class DialogoMac extends FarbicaDialogoMac implements Boton{
 
             @Override
             public void mostrar() {
-                System.out.println("Mostrando dialogo en Mac");
+                System.out.println("Boton Mac");
             }
 
 
