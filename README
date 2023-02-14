@@ -1,1 +1,49 @@
+# Examen Sorpresa
+
+## Nota:
 Mi repositorio: https://github.com/Fmejias03/ExamenSorpresaTecnicas.git
+
+Las clases y los test estan en la carpeta src/com/company.
+Hay un archivo acabado en .puml que es el codigo para el diagrama de clases realizado y que se muestra aqui abajo
+
+<img src = "https://www.plantuml.com/plantuml/svg/tLPjRnCv4FxC_Wfh-L2u2tt9vYMXoedGj0WTXOfoEgJJwJHTJpO6hxrdUniYrFz-QtkJJU8GH2I-dAfAsPbddl4pdh7zGXjGfinv59qS4SeWKv2J70qG2WQ8SqUf55EMZIw0ymltirHWc1JdqTU8a5X9QQxHp2IDdvCubVbnzL-0M1o_b4QAnxdKHe5wyZHkMNYXv2TCpGK7hTcKfOwgYhHSbLiZg7HsBIbQjdS5YXiV4BV8oGbPCxJ8cFFwj_R1JAIyf4YNLalXijgyO6QNWlwEYxbKrBb-EMPvmPS0fYyuGs5kAg3rRjlVGewRzW-eGxIpXjXhA0eciX1UEyA82HWOfobg7GOrljrnjqQLgIaLsj0zxZ3wjJ2eff3Y2XEctmKAcIw5KOiRoSAAhlksuun2C5TC0BzYoAaULmKI58nKYmes1Qwn0ZwuLieK5BFtg8rYwMONfHnisTBFaE7b5zSKLumRL3vL27ejze2ik80cH7oJ8tVJ4P24aBqi2dDvZoyNhyKC5JCWKlHkEnUiCPw04DAuiI9te96IgUDY8YDC4oe5Ld02H6Cg1INQOB6PORmYs9N_OgripG9IZY3AWfWP4hSl1AO6rGykBCmKD5PQcdfazB8X6i-bAFFAQbIvPhG3gGEh7-h0t4nMuDhHzJl3zxXVeJ6eneBUkX_XegJGBbggEdYhspyek4UbWJUzFfLg3efEi71JbjHiTzKEXVR_vsZC6CMWAHfNi2dRW1l5xi6WlyMsTitwLpjlxy2LtyyTPGhTwVESsDi4SnHrZp_xZR1b87d2DAceA8gdrh49zPcau8lRcPoFYuBNzs9pJZRBjcdjdKk4f6W7PtdhUPPIrphSMg-aMYcV-FlT5kxAzyoxAcDi-TQ-M-IbDBF9KfLkaRTorOCK3J2kc-Q3B5EOhSwALqgMHJsu_boeFrfapMKvLyEkAyL-mJUW84U3IdzO5C4-xS3Prjg3Uu-LQc6vTa3gvdw3z-ZqjDTyjdBl54Mr5OSqm-NBfEuLMp4lrAtP5t3Dr_BsiQ2rSUcr9bza2_X3GxPMZuahCr9NhDN-1VUVxG87sVdmYXq6lnWKcabXHTapeNcgkPt_jmJEfWpfiHlMOm4vFcv6ZZmZccK2RFxdf2ZlE4k9jbsRablZZcuFVkA_daOFKVYEH479qKaKHPNFNmvPtK0An6VAr2X-ypvs1brm9b2F2iaNzfSpHj6HRNPD8btUUOAKbzgW-cVOFUqCEgV3X7mb5lk8mntoKLs9o7z-gh0Z7ZsQCivJoMMLxp6czY-E7ccpu3YoBZz2zZz8SzRj9krXVzZRJECl4VncclcC6ToTeWvjd_RFaav_s6r__FYnVYgV_XNL_F6lf7a-R_64QOoKtB1Y52-N5OcIyxX2Ic4yaeBwd2b44Vrz7ZsGA0gL3dj9Up3eThOgEi5S7gBJncsA12RE1jrXhvjqkiDrgTRpGpejzq4YswT9alHw_UvWIoG3BZFv9nDKplKXSZSPVihkRgOuI7-ttniaWxFEJlNNa1wkt4R_HDMM_Y35_IGPTZh3mPPaTr8UejO5_XIXZdcbiK0nPzJCHfrzUgta8tizQNTSVdjnzktndOqw_svuqE4XnRxJpP8qASBOxvmODdmV_Rc_CXwY5oXecVF_0000"/>
+
+# Examen
+El patrón Abstract Factory proporciona una manera clara y organizada de crear objetos relacionados, sin tener que especificar exactamente qué objetos se crean. 
+Esto permite una mayor flexibilidad y escalabilidad, ya que se pueden agregar nuevos tipos de diálogos o fábricas sin afectar la estructura existente. 
+También ayuda a mejorar la cohesión y la modularidad del código, ya que los componentes están claramente separados y responsables de su propia tarea específica.
+A continuación debes realizar de manera individual este pequeño ejemplo:
+
+En este ejercicio se crean dos clases diferentes de diálogos: DialogoWindows y DialogoMac, cada una con su propia implementación de la interfaz Dialogo. 
+
+Luego, se definen dos fábricas abstractas: FabricaDialogoWindows y FabricaDialogoMac, que se encargan de crear los diálogos específicos correspondientes. 
+
+La clase Cliente actúa como el cliente de la fábrica abstracta, creando diálogos a través de la fábrica sin tener que conocer los detalles de implementación de los diálogos.
+
+Asegúrate de entregar el código en el respositorio de Github y un diagrama de clases mediante plantUML
+
+Para poder saber paso a paso que acciones debéis realizar, os he dejado un paso a paso:
+
+# Uso correcto del patrón Abstract Factory: (25 puntos)(https://refactoring.guru/es/design-patterns/abstract-factory/java/example)
+
+¿Se ha implementado correctamente el patrón Abstract Factory en el código?
+¿Están claramente definidas las fábricas abstractas y sus métodos?
+¿El cliente utiliza correctamente la fábrica abstracta para crear los diálogos?
+
+# Diseño y organización del código: (25 puntos)
+
+¿Están claramente separadas y organizadas las clases y métodos?
+¿Están claramente definidos los objetivos y responsabilidades de cada clase y método?
+¿Están utilizados los nombres adecuados para las clases, métodos y variables?
+
+# Implementación de los diálogos: (25 puntos)
+
+¿Están correctamente implementados los diálogos DialogoWindows y DialogoMac?
+¿Están correctamente implementadas las fábricas abstractas FabricaDialogoWindows y FabricaDialogoMac para crear los diálogos correspondientes?
+¿Están claramente definidos los métodos y atributos necesarios para los diálogos?
+
+# Pruebas y funcionamiento: (25 puntos) con JUnit (https://blog.softtek.com/es/testing-unitario)
+
+¿Están incluidas pruebas adecuadas para demostrar el funcionamiento correcto del código?
+¿El código se ejecuta sin errores y produce los resultados esperados?
+¿Están consideradas y manejadas adecuadamente las posibles excepciones y errores?
