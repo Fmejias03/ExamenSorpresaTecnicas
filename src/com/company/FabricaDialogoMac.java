@@ -1,6 +1,6 @@
 package com.company;
 
-public class FarbicaDialogoMac implements Fabrica{
+public class FabricaDialogoMac implements Fabrica{
     @Override
     public Boton crearDialogo() {
         return new DialogoMac();
@@ -10,4 +10,6 @@ public class FarbicaDialogoMac implements Fabrica{
     public Caja crearCaja() {
         return new CajaMac();
     }
+
+
 }

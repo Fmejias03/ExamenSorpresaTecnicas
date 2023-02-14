@@ -1,6 +1,6 @@
 package com.company;
 
-public abstract class FabricaDialogoWindows implements Fabrica{
+public class FabricaDialogoWindows implements Fabrica{
     @Override
     public Boton crearDialogo() {
         return new DialogoWindows();
@@ -10,4 +10,6 @@ public abstract class FabricaDialogoWindows implements Fabrica{
     public Caja crearCaja() {
         return new CajaWindows();
     }
+
+
 }

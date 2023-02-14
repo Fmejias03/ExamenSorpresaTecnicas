@@ -6,4 +6,5 @@ public class DialogoWindows extends FabricaDialogoWindows implements Boton{
         public void mostrar() {
             System.out.println("Boton Windows");
         }
+
 }

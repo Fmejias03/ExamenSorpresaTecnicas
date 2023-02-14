@@ -6,7 +6,7 @@ public class Demo {
         Fabrica factory;
         String osName = System.getProperty("os.name").toLowerCase();
         if (osName.contains("mac")) {
-            factory = new FarbicaDialogoMac();
+            factory = new FabricaDialogoMac();
         } else {
             factory = new FabricaDialogoWindows() {
             };
